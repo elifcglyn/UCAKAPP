@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Uçak Rezervasyon",
+    "slug": "ucakapp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#DC143C",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ucakapp.rezervasyon"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#DC143C"
+      },
+      "package": "com.ucakapp.rezervasyon",
+      "permissions": [
+        "WRITE_EXTERNAL_STORAGE",
+        "READ_EXTERNAL_STORAGE"
+      ]
+    },
+    "web": {},
+    "plugins": []
+  }
+}
